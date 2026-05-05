@@ -8,7 +8,6 @@ Example of usage:
 python3 -m unittest discover tests
 '''
 
-
 class TestSleepInMs(unittest.TestCase):
 
     def test_sleep_success(self):
