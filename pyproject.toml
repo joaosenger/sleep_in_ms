@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sleep_in_ms"
+version = "0.0.3"
+authors = [
+    { name = "João Senger", email = "joaontn@gmail.com" },
+    { name = "Felipe Cerquiare", email = "contato.felipecerquiare@gmail.com" },
+]
+description = "A simple function to sleep in milliseconds"
+readme = "README.md"
+requires-python = ">=3.9.25"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/joaosenger/sleep_in_ms"
+"Bug Tracker" = "https://github.com/joaosenger/sleep_in_ms/issues"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

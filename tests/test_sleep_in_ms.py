@@ -1,4 +1,4 @@
-from src.sleep_in_ms import sleep_in_ms
+from src.sleep_in_ms.sleep import sleep_in_ms
 import time
 import unittest
 
